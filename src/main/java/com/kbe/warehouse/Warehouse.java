@@ -3,6 +3,6 @@ package com.kbe.warehouse;
 import java.util.List;
 
 public interface Warehouse {
-    List<Product> getAllProducts();
-    List<Product> getProductsOfType(ProductType type);
+    List<HardwareComponent> getAllHardwareComponents();
+    List<HardwareComponent> getHardwareComponentsOfType(HardwareComponentType type);
 }

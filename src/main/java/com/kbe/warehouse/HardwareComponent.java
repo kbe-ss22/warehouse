@@ -1,15 +1,15 @@
 package com.kbe.warehouse;
 
-public class Product {
+public class HardwareComponent {
     private String name;
     private String description;
     private float price;
     private String location;
     private int stock;
-    private ProductType productType;
+    private HardwareComponentType productType;
     private String additionalAttributes;
 
-    public Product(String name, String description, float price, String location, int stock, ProductType productType, String additionalAttributes) {
+    public HardwareComponent(String name, String description, float price, String location, int stock, HardwareComponentType productType, String additionalAttributes) {
         this.name = name;
         this.description = description;
         this.price = price;
@@ -60,11 +60,11 @@ public class Product {
         this.stock = stock;
     }
 
-    public ProductType getProductType() {
+    public HardwareComponentType getProductType() {
         return productType;
     }
 
-    public void setProductType(ProductType productType) {
+    public void setProductType(HardwareComponentType productType) {
         this.productType = productType;
     }
 
