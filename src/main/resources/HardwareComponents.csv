@@ -1,0 +1,84 @@
+Name,Description,Price,Stock,Type
+O11 Dynamic EVO Tempered Glass,Size:Midi/Color:black,179,10,Case
+O12 Dynamic EVO Tempered Glass,Size:Midi/Color:white,189,10,Case
+NZXT H510i - black,Size:Midi/Color:black,82,10,Case
+NZXT H510i - white,Size:Midi/Color:white,85,10,Case
+NZXT H210i - red,Size:Mini/Color:red,89,10,Case
+NZXT H710 - black,"""Size:Midi/Color:black""",103,10,Case
+Dark Base Pro 900,"""Size:Big/Color:black""",214,10,Case
+Define 7 Clear Tempered Glass,"""Size:Big/Color:white""",184,10,Case
+Core 1000 Mini Tower,"""Size:Midi/Color:black""",44,10,Case
+Torrent Nano,"""Size:Mini/Color:white""",125,10,Case
+8GB Corsair Vengeance,"""Capacity:8/MHz:2400"" ",32.73,10,RAM
+8GB Corsair Vengeance RGB PRO schwarz,"""Capacity:8/MHz:3200"" ",45.92,10,RAM
+2x8GB G.Skill RipJaws V silber,"""Capacity:16/MHz:2400"" ",62.41,10,RAM
+16GB G.Skill Aegis,"""Capacity:16/MHz:3200"" ",56.51,10,RAM
+2x 8GB G.Skill RipJaws V schwarz,"""Capacity:16/MHz:3200"" ",64,10,RAM
+2x 8GB G.Skill RipJaws V schwarz,"""Capacity:16/MHz:4000"" ",88.38,10,RAM
+2x 16GB G.Skill RipJaws V schwarz,"""Capacity:32/MHz:3200"" ",115.37,10,RAM
+2x 32GB Kingston FURY Beast,"""Capacity:64/MHz:3200"" ",219.87,10,RAM
+MSI MPG B550 Gaming Plus AMD B550,"""Socket:So.AM4/Formfactor:ATX""",109.6,10,Motherboard
+MSI MPG X570 GAMING PRO CARBON WIFI,"""Socket:So.AM4/Formfactor:ATX""",220,10,Motherboard
+MSI Pro B660-A Intel B660,"""Socket:So.1700/Formfactor:ATX""",141.21,10,Motherboard
+ASRock PG Riptide Intel Z690,"""Socket:So.1700/Formfactor:ATX""",209.87,10,Motherboard
+MSI B550M Bazooka,"""Socket:So.AM4/Formfactor:mATX""",97.77,10,Motherboard
+ASRock X570M Pro4,"""Socket:So.AM4/Formfactor:mATX""",178.91,10,Motherboard
+MSI MAG Mortar Intel B660,"""Socket:So.1700/Formfactor:mATX""",175.27,10,Motherboard
+ASRock Pro RS Intel B660,"""Socket:So.1700/Formfactor:mATX""",129.92,10,Motherboard
+Gigabyte X570 Aorus Xtreme,"""Socket:So.AM4/Formfactor:EATX""",604.86,10,Motherboard
+ASRock B660M-ITX/ ac Intel B660,"""Socket:So.1700/Formfactor:mini-ITX""",146.92,10,Motherboard
+Ryzen 5 5500,"""Cores:6/Thread:12/GHz:4.2/Socket:so.AM4""",139,10,CPU
+Ryzen 5 5600X,"""Cores:6/Thread:12/GHz:4.6/Socket:so.AM4""",199,10,CPU
+Ryzen 7 5700X,"""Cores:8/Thread:16/GHz:4.6/Socket:so.AM4""",268,10,CPU
+Ryzen 7 5800X,"""Cores:8/Thread:16/GHz:4.7/Socket:so.AM4""",288,10,CPU
+Ryzen 5 5950X,"""Cores:16/Thread:32/GHz:4.9/Socket:so.AM4""",488,10,CPU
+Core i5-12400,"""Cores:6/Thread:12/GHz:4.4/Socket:so.1700""",189,10,CPU
+Core i5-12600,"""Cores:6/Thread:12/GHz:4.8/Socket:so.1700""",250,10,CPU
+Core i7-12700,"""Cores:12/Thread:20/GHz:4.8/Socket:so.1700""",349,10,CPU
+Core i7-12700K,"""Cores:12/Thread:20/GHz:5/Socket:so.1700""",409,10,CPU
+Core i9-12900k,"""Cores:16/Thread:24/GHz:5.2/Socket:so.1700""",596,10,CPU
+UNI FAN SL140 RGB PWM,"""Size:140/dB:30/RPM:1500""",20,10,Fan
+P12 PWM PST,"""Size:120/dB:23.5/RPM:1800""",6.38,10,Fan
+NF-A12x25 PWM,"""Size:120/dB:22.6/RPM:2000""",29.9,10,Fan
+Silent Wings 3,"""Size:140/dB:28.1/RPM:1600""",25.9,10,Fan
+Pure Wings 2,"""Size:140/dB:18.8/RPM:1600""",10.9,10,Fan
+2x UNI FAN SL140 RGB,"""Size:140/dB:30/RPM:1500""",68.23,10,Fan
+3x NB-eLoop Fan B14-PS,"""Size:140/dB:24/RPM:1500""",73.34,10,Fan
+NF-A20 PWM,"""Size:200/dB:18.1/RPM:800""",29.9,10,Fan
+Spectre 230mm,"""Size:230/dB:20/RPM:900""",12.9,10,Fan
+3x UNI FAN SL120 RGB PWM,"""Size:120/dB:31/RPM:1900""",79.9,10,Fan
+GTX 1660,"""MHz:1530/VRAM:6""",297,10,GPU
+RTX 3050,"""MHz:1545/VRAM:8""",324,10,GPU
+RTX 3060,"""MHz:1320/VRAM:12""",424,10,GPU
+RTX 3070,"""MHz:1500/VRAM:8""",638,10,GPU
+RTX 3080,"""MHz:1440/VRAM:10""",909,10,GPU
+RX 6500 XT,"""MHz:2310/VRAM:4""",179,10,GPU
+RX 6600 XT,"""MHz:1968/VRAM:6""",429,10,GPU
+RX 6700 XT,"""MHz:1700/VRAM:12""",549,10,GPU
+RX 6800 XT,"""MHz:1825/VRAM:16""",879,10,GPU
+RX 6900 XT,"""MHz:1925/VRAM:16""",987,10,GPU
+System Power 9,"""Wattage:400/Rating:Bronze""",45.87,10,PowerSupply
+Pure Power 11,"""Wattage:500/Rating:Gold""",60.54,10,PowerSupply
+Pure Power 11 CM Modular,"""Wattage:500/Rating:Gold""",67.87,10,PowerSupply
+Corsair CX Series CX650M Modular,"""Wattage:650/Rating:Bronze""",79.87,10,PowerSupply
+Pure Power 11 FM Modular,"""Wattage:650/Rating:Gold""",86.47,10,PowerSupply
+Corsair CV Series CV750,"""Wattage:750/Rating:Bronze""",52.73,10,PowerSupply
+CX-F RGB White Series Modular,"""Wattage:750/Rating:Bronze""",81.37,10,PowerSupply
+Pure Power 11 FM Modular,"""Wattage:750/Rating:Gold""",97.83,10,PowerSupply
+Straight Power 11 Modular,"""Wattage:850/Rating:Plantinum""",137.56,10,PowerSupply
+Dark Power 12 Modular,"""Wattage:1000/Rating:Titanium""",231.67,10,PowerSupply
+Sound Blaster AE-7,"""Output:7.1""",223,10,Soundcard
+NU Audio Pro,"""Output:7.1""",312,10,Soundcard
+Xonar AE,"""Output:7.1""",70,10,Soundcard
+Xonar SE,"""Output:7.1""",50,10,Soundcard
+STRIX SOAR,"""Output:7.1""",90,10,Soundcard
+120GB Kingston A400 2.5,"""Speed:320/Capacity:120""",22.47,10,Storage
+120GB SanDisk Plus 2.5,"""Speed:310/Capacity:120""",23.58,10,Storage
+240GB Crucial MX500 2.5,"""Speed:510/Capacity:240""",36.63,10,Storage
+250GB Samsung SSD 870 EVO 2.5,"""Speed:530/Capacity:250""",43.98,10,Storage
+500GB Samsung SSD 870 EVO 2.5,"""Speed:530/Capacity:500""",64,10,Storage
+500GB SanDisk Ultra 3D 2.5,"""Speed:530/Capacity:500""",55.73,10,Storage
+500GB Samsung SSD 980 M.2,"""Speed:2600/Capacity:500""",49.9,10,Storage
+1TB Crucial P2 M.2,"""Speed:1800/Capacity:1000""",84.96,10,Storage
+1TB Samsung SSD 980 M.2,"""Speed:3000/Capacity:1000""",92,10,Storage
+2TB PNY XLR8 CS3030 M.2 2280,"""Speed:3000/Capacity:2000""",205,10,Storage
