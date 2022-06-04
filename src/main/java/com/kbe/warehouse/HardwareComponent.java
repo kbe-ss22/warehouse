@@ -4,19 +4,15 @@ public class HardwareComponent {
     private String name;
     private String description;
     private float price;
-    private String location;
     private int stock;
     private HardwareComponentType productType;
-    private String additionalAttributes;
 
-    public HardwareComponent(String name, String description, float price, String location, int stock, HardwareComponentType productType, String additionalAttributes) {
+    public HardwareComponent(String name, String description, float price, int stock, HardwareComponentType productType) {
         this.name = name;
         this.description = description;
         this.price = price;
-        this.location = location;
         this.stock = stock;
         this.productType = productType;
-        this.additionalAttributes = additionalAttributes;
     }
 
 
@@ -44,14 +40,6 @@ public class HardwareComponent {
         this.price = price;
     }
 
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
     public int getStock() {
         return stock;
     }
@@ -68,11 +56,14 @@ public class HardwareComponent {
         this.productType = productType;
     }
 
-    public String getAdditionalAttributes() {
-        return additionalAttributes;
-    }
-
-    public void setAdditionalAttributes(String additionalAttributes) {
-        this.additionalAttributes = additionalAttributes;
+    @Override
+    public String toString() {
+        return "HardwareComponent{" + '\n' +
+                "name='" + name + '\n' +
+                ", description='" + description + '\n' +
+                ", price=" + price +
+                ", stock=" + stock + '\n' +
+                ", productType=" + productType +
+                '}'  + '\n'  + '\n';
     }
 }
