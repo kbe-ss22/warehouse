@@ -47,7 +47,8 @@ public class ReadComponentCSV implements ReadInput{
 
     private static String formatComponentDescription(String str)
     {
-        String newStr = str.replaceAll("\"","");
+        String newStr = str.replaceAll("\"","").replaceAll("/"," " +
+                "");
 
         return String.join(" ",newStr.split("\""));
     }
