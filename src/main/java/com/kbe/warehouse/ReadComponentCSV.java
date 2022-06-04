@@ -1,38 +1,32 @@
 package com.kbe.warehouse;
 
-import java.awt.print.Book;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReadComponentFanCSV implements ReadInput{
+public class ReadComponentCSV implements ReadInput{
 
-    static final String FILEPATH = "";
-
+    static final String FILEPATH = "src/main/resources/HardwareComponents.csv";
 
     @Override
     public List<HardwareComponent> getHardwareComponentsFromFile() {
 
         List<HardwareComponent> hardwareComponentList = new ArrayList<>();
-        Path pathToFile = Paths.get(FILEPATH);
 
-        try (BufferedReader br = Files.newBufferedReader(pathToFile, StandardCharsets.US_ASCII)) {
+        try (BufferedReader br = Files.newBufferedReader(Paths.get(FILEPATH))) {
 
+            br.readLine();
             String line = br.readLine();
 
             while (line != null) {
-
                 String[] attributes = line.split(",");
                 HardwareComponent fanComponent = createComponent(attributes);
                 hardwareComponentList.add(fanComponent);
                 line = br.readLine();
             }
-
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
@@ -40,17 +34,21 @@ public class ReadComponentFanCSV implements ReadInput{
         return hardwareComponentList;
     }
 
-
     private static HardwareComponent createComponent(String[] metadata) {
 
         String name = metadata[0];
-        String description = metadata[1];
-        Float price = Float.parseFloat(metadata[2]);
-        String location = metadata[3];
-        int stock = Integer.parseInt(metadata[4]);
-        HardwareComponentType productType = HardwareComponentType.valueOf(metadata[5]);
-        String additionalAttributes = metadata[6];
+        String description = formatComponentDescription(metadata[1]);
+        float price = Float.parseFloat(metadata[2]);
+        int stock = Integer.parseInt(metadata[3]);
+        HardwareComponentType productType = HardwareComponentType.valueOf(metadata[4].toUpperCase());
 
-        return new HardwareComponent(name, description, price, location, stock, productType, additionalAttributes);
+        return new HardwareComponent(name, description, price, stock, productType);
+    }
+
+    private static String formatComponentDescription(String str)
+    {
+        String newStr = str.replaceAll("\"","");
+
+        return String.join(" ",newStr.split("\""));
     }
 }
