@@ -63,7 +63,10 @@ public class LoadCsvToDB implements CommandLineRunner {
             br.readLine();
             String line = br.readLine();
 
+            int i = 0;
             while (line != null) {
+                i++;
+                System.out.println("product nr:"+i);
                 String[] attributes = line.split(";");
                 Product product = createProduct(attributes);
                 productList.add(product);
@@ -96,7 +99,8 @@ public class LoadCsvToDB implements CommandLineRunner {
 
         for(int i = 2; i < metadata.length; i++){
 
-            hardware.add( hardwareList.get(Integer.parseInt(metadata[i])));
+            hardware.add( hardwareList.get(Integer.parseInt(metadata[i])-1));
+            System.out.println("hardware.add i="+i);
         }
         return new Product(id,name,hardware);
     }
