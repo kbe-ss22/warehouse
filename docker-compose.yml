@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  warehouse:
+    container_name: warehouse
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:8080"
+      - "8082:8082"
+    expose:
+      - 8080
+      - 8082
+    volumes:
+      - ./:/app/app
+    restart: unless-stopped
+    networks:
+      - rabbitmq_nodejs
+
+networks:
+    rabbitmq_nodejs:
+      name: rabbitmq_nodejs
+      driver: bridge
+    auth-network:
+      driver: bridge
