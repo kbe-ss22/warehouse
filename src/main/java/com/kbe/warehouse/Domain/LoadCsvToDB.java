@@ -1,5 +1,6 @@
-package com.kbe.warehouse;
+package com.kbe.warehouse.Domain;
 
+import com.kbe.warehouse.Entity.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -9,7 +10,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Component
 public class LoadCsvToDB implements CommandLineRunner {

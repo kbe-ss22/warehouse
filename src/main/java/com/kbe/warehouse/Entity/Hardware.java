@@ -1,4 +1,4 @@
-package com.kbe.warehouse;
+package com.kbe.warehouse.Entity;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
