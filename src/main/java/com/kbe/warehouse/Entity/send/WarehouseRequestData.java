@@ -1,4 +1,4 @@
-package com.kbe.warehouse.Entity;
+package com.kbe.warehouse.Entity.send;
 
 import com.kbe.warehouse.Entity.Hardware;
 import com.kbe.warehouse.Entity.Product;

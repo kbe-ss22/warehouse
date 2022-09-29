@@ -1,5 +1,6 @@
-package com.kbe.warehouse.Entity;
+package com.kbe.warehouse.Entity.db;
 
+import com.kbe.warehouse.Entity.Hardware;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
